@@ -29,7 +29,33 @@ You may customize this page by editing <tt><?php echo __FILE__; ?></tt>
 	<span class="adm_people">[<?php echo Yii::app()->user->name ?>]
 
 <p class="right">
-<iframe frameborder="2" border="0" height='250' width='500' scrolling="yes" name="iframe" src="<?php echo $this->createUrl('default/copy') ?>">	</iframe>
+	<iframe frameborder="2" border="0" height='250' width='500' scrolling="yes" name="iframe" src="<?php echo $this->createUrl('default/copy') ?>">	</iframe>
+<p class="con">	
+		
+		<a href="<?php echo $this->createUrl('user/passwd')?>">
+			修改密码
+		</a>
+</p>
+
+<div class="menu_box">
+	<h2>栏目管理</h2>
+	<div class="text">
+		<ul class="con">
+			<li class="nav_u">
+				<a href="<?php echo $this->createUrl('Category/index') ?>" class="pos">查看栏目
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="text">
+		<ul class="con">
+			<li class="nav_u">
+				<a href="<?php echo $this->createUrl('Category/add') ?>" class="pos">添加栏目
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
 
 
 

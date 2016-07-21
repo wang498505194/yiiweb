@@ -8,23 +8,24 @@ class UserController extends Controller{
 
 		if(isset($_POST['User'])){
 
-			$userInfo=$userModel->find('username=:name',array(':name=>s'));
+			$userInfo=$userModel->find('username=:name',array(':name'=>Yii::app()->user->name));
 
 			$userModel->attributes = $_POST['User'];
 
 			if($userModel->validate()){
 				$password = md5($_POST['User']['password1']);
 				if($userModel->updateByPk($userInfo->uid,array('password'=>$password))){
-					echo 1;die;
+						Yii::app()->user->setFlash('success','修改密码成功');
 				}
 			}
+
 		}
 
-		 // p(uid);
 
 
 		$this->render('index',array('userModel'=>$userModel));
 	}
+
 }
 
 

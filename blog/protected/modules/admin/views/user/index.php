@@ -12,9 +12,13 @@
 	)); ?>
 
 
+
+	
+
 	<table class="table">
 		<tr>
-			<td class="th" colspan="10">修改密码</td>
+			<th class="th" colspan="10">
+			<h2>密码修改</h2></th>
 		</tr>
 
 		<tr>
@@ -59,7 +63,14 @@
 	</table>
 	<?php $this->endWidget() ?>
 
+	<!-- 修改密码成功提示 -->
 
+	<?php 
+		if(Yii::app()->user->hasFlash('success')){
+			echo Yii::app()->user->getFlash('success');
+		}
+
+	?>
 
 
 

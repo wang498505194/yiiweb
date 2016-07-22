@@ -2458,3 +2458,1151 @@ Stack trace:
 REQUEST_URI=/yiiweb/blog/index.php?r=admin/Category/add
 HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin
 ---
+2016/07/22 03:48:16 [error] [php] Undefined variable: categoryInfo (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php:9)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CategoryController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CategoryController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php (9)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 03:57:33 [error] [php] Undefined variable: categoryInfo (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/category/index.php:19)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CategoryController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CategoryController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php(10): CategoryController->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): CategoryController->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CategoryController->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CategoryController->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/category/index.php (19)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php (10)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 04:06:26 [error] [php] Use of undefined constant edit - assumed 'edit' (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php:28)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CategoryController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CategoryController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/edit
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 04:06:44 [error] [php] Use of undefined constant edit - assumed 'edit' (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php:28)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CategoryController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CategoryController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/edit
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 04:07:35 [error] [php] Use of undefined constant categoryModel - assumed 'categoryModel' (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php:28)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CategoryController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CategoryController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/edit
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 04:07:47 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on string in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/helpers/CHtml.php:1514
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/widgets/CActiveForm.php(600): CHtml::activeLabelEx('categoryModel', 'cname', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/category/edit.php(17): CActiveForm->labelEx('categoryModel', 'cname')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('edit', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php(28): CController->render('edit', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): CategoryController->actionEdit()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('edit')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/edit
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/category/index
+---
+2016/07/22 04:07:51 [error] [exception.Error] Error: Call to a member function isAttributeRequired() on string in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/helpers/CHtml.php:1514
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/widgets/CActiveForm.php(600): CHtml::activeLabelEx('categoryModel', 'cname', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/category/edit.php(17): CActiveForm->labelEx('categoryModel', 'cname')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('edit', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php(28): CController->render('edit', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): CategoryController->actionEdit()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('edit')
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/edit
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/category/index
+---
+2016/07/22 04:11:00 [error] [exception.Error] Error: Call to undefined function findByPk() in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php:28
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): CategoryController->actionEdit()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('edit')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#8 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/edit&cid=1
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/category/index
+---
+2016/07/22 05:08:21 [error] [exception.ParseError] ParseError: syntax error, unexpected '；' (T_STRING) in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php:48
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(338): CWebApplication->createController('index/', Object(AdminModule))
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(276): CWebApplication->createController('category/index/')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/index
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/category/edit&cid=12
+---
+2016/07/22 05:09:16 [error] [exception.ParseError] ParseError: syntax error, unexpected '}' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php:49
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(338): CWebApplication->createController('index/', Object(AdminModule))
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(276): CWebApplication->createController('category/index/')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/index
+---
+2016/07/22 05:09:54 [error] [exception.ParseError] ParseError: syntax error, unexpected 'index' (T_STRING), expecting ',' or ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php:52
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(338): CWebApplication->createController('index/', Object(AdminModule))
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(276): CWebApplication->createController('category/index/')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/index
+---
+2016/07/22 05:10:42 [error] [php] Undefined variable: cid (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php:45)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CategoryController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CategoryController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/del&cid=1
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php (45)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 05:10:59 [error] [php] Missing argument 1 for CActiveRecord::deleteByPk(), called in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php on line 51 and defined (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/db/ar/CActiveRecord.php:1801)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CategoryController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CategoryController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CategoryController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/category/del&cid=13
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/CategoryController.php (51)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 06:07:20 [error] [exception.ParseError] ParseError: syntax error, unexpected 'Article' (T_STRING) in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php:5
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(338): CWebApplication->createController('add/', Object(AdminModule))
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(276): CWebApplication->createController('article/add/')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 06:07:43 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/models/Article.php:21
+Stack trace:
+#0 [internal function]: YiiBase::autoload('Article')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(5): spl_autoload_call('Article')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 06:08:18 [error] [php] Undefined variable: articleModel (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php:6)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 07:35:13 [error] [php] Undefined variable: articleModel (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php:6)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 07:37:09 [error] [php] Undefined variable: articleModel (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php:6)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 07:38:31 [error] [exception.ParseError] ParseError: syntax error, unexpected ')', expecting ',' or ';' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php:17
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('add', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(6): CController->render('add', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 07:40:06 [error] [php] Undefined variable: form (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php:13)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(6): ArticleController->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php (13)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (6)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 07:46:55 [error] [exception.CException] CException: Article has an invalid validation rule. The rule must specify attributes to be validated and the validator name. in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CModel.php:289
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CModel.php(260): CModel->createValidators()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CModel.php(304): CModel->getValidators('title')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/helpers/CHtml.php(1514): CModel->isAttributeRequired('title')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/widgets/CActiveForm.php(600): CHtml::activeLabelEx(Object(Article), 'title', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php(15): CActiveForm->labelEx(Object(Article), 'title')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('add', Array, true)
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(6): CController->render('add', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#18 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 07:53:40 [error] [exception.ParseError] ParseError: syntax error, unexpected '，1' (T_STRING), expecting ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php:31
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('add', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(6): CController->render('add', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 07:54:16 [error] [exception.ParseError] ParseError: syntax error, unexpected '，1' (T_STRING), expecting ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php:31
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('add', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(6): CController->render('add', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 07:54:51 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('add', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(6): CController->render('add', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 07:55:18 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php:31
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('add', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(6): CController->render('add', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 08:07:20 [error] [exception.Error] Error: Call to undefined method Category::mode() in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php:6
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#8 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 08:07:43 [error] [php] Use of undefined constant cateArr - assumed 'cateArr' (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php:15)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (15)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 08:08:08 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('add', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(18): CController->render('add', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 08:08:41 [error] [exception.ParseError] ParseError: syntax error, unexpected ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php:42
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('add', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(18): CController->render('add', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 08:09:18 [error] [php] Undefined variable: cateArr (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php:42)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(18): ArticleController->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/add.php (42)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (18)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 08:12:27 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/
+---
+2016/07/22 08:12:35 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(270): CController->missingAction('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/
+---
+2016/07/22 08:35:16 [error] [exception.ParseError] ParseError: syntax error, unexpected '；' (T_STRING), expecting ',' or ';' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php:6
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(338): CWebApplication->createController('add/', Object(AdminModule))
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(276): CWebApplication->createController('article/add/')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/
+---
+2016/07/22 08:35:36 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting ',' or ';' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php:7
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(338): CWebApplication->createController('add/', Object(AdminModule))
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(276): CWebApplication->createController('article/add/')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/
+---
+2016/07/22 08:43:08 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/models/Article.php:30
+Stack trace:
+#0 [internal function]: YiiBase::autoload('Article')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(16): spl_autoload_call('Article')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/
+---
+2016/07/22 08:43:56 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/models/Article.php:30
+Stack trace:
+#0 [internal function]: YiiBase::autoload('Article')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(16): spl_autoload_call('Article')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/
+---
+2016/07/22 08:51:52 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 08:51:52 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 08:51:52 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 08:51:59 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 08:51:59 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 08:51:59 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (30)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 08:51:59 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "idnex". in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(270): CController->missingAction('idnex')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('idnex')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/idnex
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 08:53:46 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "idnex". in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(270): CController->missingAction('idnex')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('idnex')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/idnex
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 08:53:53 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "idnex". in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(270): CController->missingAction('idnex')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('idnex')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/idnex
+---
+2016/07/22 09:24:44 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php:60
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): CController->render('index', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/
+---
+2016/07/22 09:25:15 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php:56
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): CController->render('index', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/
+---
+2016/07/22 09:25:22 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php:56
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): CController->render('index', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/
+---
+2016/07/22 09:26:33 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:26:33 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:26:33 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:26:33 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php:56
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): CController->render('index', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 09:27:21 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php:59
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): CController->render('index', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 09:29:25 [error] [php] Undefined variable: articleInfo (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php:20)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:31:26 [error] [php] Undefined variable: pages (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php:45)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (45)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:04 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:04 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:04 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:04 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(46): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (46)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:34 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:34 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:34 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:34 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(45): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (45)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:53 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(45): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (45)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:57 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:57 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:57 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:45:57 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(45): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (45)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:46:15 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:46:15 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:46:15 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:46:15 [error] [exception.ParseError] ParseError: syntax error, unexpected ')', expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php:48
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): CController->render('index', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 09:46:33 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:46:33 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:46:33 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:47:02 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:47:02 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:47:02 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:47:08 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:47:08 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:47:08 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:48:19 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:48:19 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:48:19 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:48:19 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(46): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (46)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:48:34 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(45): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (45)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:50:25 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(40): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:50:35 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(41): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (41)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 09:50:45 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(48): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (48)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:00:25 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:00:25 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:00:25 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (39)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:12:43 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:12:43 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:12:43 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:12:43 [error] [exception.ParseError] ParseError: syntax error, unexpected ')', expecting end of file in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php:48
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/X...', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): CBaseController->renderFile('/Applications/X...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): CController->render('index', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 10:12:56 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:12:56 [warning] [application] Failed to set unsafe attribute "cid" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:12:56 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:16:26 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/models/Article.php:31
+Stack trace:
+#0 [internal function]: YiiBase::autoload('Article')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(7): spl_autoload_call('Article')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('index')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/i...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/article/index
+---
+2016/07/22 10:16:35 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/models/Article.php:31
+Stack trace:
+#0 [internal function]: YiiBase::autoload('Article')
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(26): spl_autoload_call('Article')
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionAdd()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): CController->run('add')
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/article/a...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/add
+HTTP_REFERER=http://localhost/yiiweb/blog/index.php?r=admin/article/add
+---
+2016/07/22 10:16:48 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:16:48 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:17:00 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:17:00 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:17:06 [warning] [application] Failed to set unsafe attribute "type" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:17:06 [warning] [application] Failed to set unsafe attribute "info" of "Article".
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (40)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:33:11 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(45): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (45)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
+2016/07/22 10:33:25 [error] [php] include(ClinkPager.php): failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/YiiBase.php(303): class_exists()
+#2 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWidgetFactory.php(146): import()
+#3 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(146): CWidgetFactory->createWidget()
+#4 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(180): ArticleController->createWidget()
+#5 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php(45): ArticleController->widget()
+#6 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(126): require()
+#7 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CBaseController.php(95): ArticleController->renderInternal()
+#8 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(869): ArticleController->renderFile()
+#9 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(782): ArticleController->renderPartial()
+#10 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php(20): ArticleController->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/actions/CInlineAction.php(49): ArticleController->actionIndex()
+#12 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(308): CInlineAction->runWithParams()
+#13 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(286): ArticleController->runAction()
+#14 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CController.php(265): ArticleController->runActionWithFilters()
+#15 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(282): ArticleController->run()
+#16 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#18 /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php(14): CWebApplication->run()
+REQUEST_URI=/yiiweb/blog/index.php?r=admin/article/index
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/views/article/index.php (45)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/protected/modules/admin/controllers/ArticleController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/yiiweb/blog/index.php (14)
